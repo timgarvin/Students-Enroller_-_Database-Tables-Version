@@ -6,16 +6,19 @@ Students Enroller (Database Tables Version) is a C++ program that allows the use
 * Run Program: ./a.out
 
 # Program Commands
-* insert students <student-id> <first-name> <last-name>: Inserts a new student into the Finite Set (represented as a students table in a database).
-  insert grades <student-id> <term> <year> <grade>: Inserts a new grade into the Finite Set (represented as a grades table in a database).
+* insert students \<student-id> \<first-name> \<last-name>: Inserts a new student into the Finite Set (represented as a students table in a database).
 	* Examples:
 		<pre>
 		tables> insert students 5 Mickey Mouse
 		tables> insert students 2 Papa Smurf
+		</pre>
+* insert grades \<student-id> \<term> \<year> \<grade>: Inserts a new grade into the Finite Set (represented as a grades table in a database).
+	* Examples:
+		<pre>
 		tables> insert grades 1 Spring 2016 B
 		tables> insert grades 2 Summer 1738 A
 		</pre>
-* select <table-name> <attribute-name> <value>: Selects a set of user-defined values from a table and prints out the resulting rows returned.
+* select \<table-name> \<attribute-name> \<value>: Selects a set of user-defined values from a table and prints out the resulting rows returned.
 	* Examples:
 		<pre>
 		tables> select students id 2
